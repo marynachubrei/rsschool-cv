@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_block{
+    margin:0 auto;
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    padding: 20px;
+}
+aside{
+    background-color: rgba(221, 208, 180, 0.596);
+    width: 35%;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+   
+  
+}
+aside img{
+    width: 180px;
+    
+}
+.inner{
+    margin:40px 0;
+}
+.title{
+    padding-bottom: 25px;
+    font-size: 31px;
+letter-spacing: 2px;
+line-height: 31px;
+color: #363636;
+font-weight: 600;
+font-family: "Poppins",  sans-serif;
+position: relative;
+}
+
+.title::after{
+    content:"";
+    width: 80%;
+    height: 4px;
+    background-color: #363636;;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 23px;
+line-height: 31px;
+color: #363636;;
+font-weight: 500;
+font-family: "Poppins",sans-serif;
+letter-spacing: 1px;
+}
+ul li{
+    display: block;
+    padding-top: 15px;
+}
+
+ul li a{
+   
+    text-decoration: none; 
+    font-size: 17px;
+    color: #363636;;
+    font-weight: 400;
+   
+}
+
+.language_name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills_name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.circles{
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    margin-left: 5px;
+    
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+.circle.full{
+    background-color:  #595f6b;
+}
+.circle.empty{
+    background-color:#595f6b63;
+}
+
+.wrapper{
+    background-color:  #2c323d;
+   width: 65%;
+}
+header{
+    padding-bottom:35px ;
+}
+
+h1{
+    font-size: 60px;
+line-height: 80px;
+color: rgb(248, 244, 244);
+font-weight: 600;
+font-family: "Poppins",sans-serif;
+}
+h3{
+    font-size: 35px;
+letter-spacing: 3px;
+line-height: 73px;
+color:rgb(248, 244, 244);;
+font-weight: 400;
+font-family: "Poppins",sans-serif;
+}
+.about_top,
+.education_top,
+.programm_top{
+    color: rgb(248, 244, 244);;
+}
+.about_top::after,
+.education_top::after,
+.programm_top::after{
+    background-color: rgb(248, 244, 244);;
+}
+
+.about_inner,
+.education_inner,
+.programm_inner{
+    font-size: 20px;
+line-height: 31px;
+color: rgb(248, 244, 244);
+font-weight: 400;
+font-family: "Poppins",sans-serif;
+padding-top: 15px;
+}
+.education_yearsandplace{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.education_yearsandplace:first-child{
+    padding-bottom: 20px;
+}
+
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_rsschool,
+.logo_github img{
+    
+    width: 80px;
+}
+.footer_bottom{
+    font-size: 20px;
+    line-height: 31px;
+    color: rgb(248, 244, 244);
+    font-weight: 500;
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    margin-bottom: -10px;
+}
